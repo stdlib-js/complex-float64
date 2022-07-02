@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.Complex128;
+})();
 })();
 </script>
 ```
@@ -214,6 +216,7 @@ To [revive][mdn-json-parse] a `Complex128` number from a [JSON][json] `string`, 
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var z = new Complex128( 3.0, -2.0 );
 
@@ -232,6 +235,7 @@ console.log( 'imag: %d', z.im );
 console.log( 'JSON: %s', JSON.stringify( z ) );
 // => 'JSON: {"type":"Complex128","re":3,"im":-2}'
 
+})();
 })();
 </script>
 </body>
@@ -344,13 +348,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [mdn-json-parse]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse
 
-[@stdlib/complex/reviver-float64]: https://github.com/stdlib-js/complex-reviver-float64/tree/umd
+[@stdlib/complex/reviver-float64]: https://github.com/stdlib-js/complex-reviver-float64/tree/umd/tree/umd
 
 <!-- <related-links> -->
 
-[@stdlib/complex/cmplx]: https://github.com/stdlib-js/complex-cmplx/tree/umd
+[@stdlib/complex/cmplx]: https://github.com/stdlib-js/complex-cmplx/tree/umd/tree/umd
 
-[@stdlib/complex/float32]: https://github.com/stdlib-js/complex-float32/tree/umd
+[@stdlib/complex/float32]: https://github.com/stdlib-js/complex-float32/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
