@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@deno/mod.js';
+import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@v0.1.1-deno/mod.js';
 ```
 
 #### Complex128( real, imag )
@@ -195,7 +195,7 @@ To [revive][mdn-json-parse] a `Complex128` number from a [JSON][json] `string`, 
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@deno/mod.js';
+import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@v0.1.1-deno/mod.js';
 
 var z = new Complex128( 3.0, -2.0 );
 
