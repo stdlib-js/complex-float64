@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/complex-float64/tags). For example,
+
+```javascript
 import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@v0.2.1-esm/index.mjs';
 ```
 
@@ -200,7 +205,7 @@ To [revive][mdn-json-parse] a `Complex128` number from a [JSON][json] `string`, 
 <body>
 <script type="module">
 
-import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@v0.2.1-esm/index.mjs';
+import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@esm/index.mjs';
 
 var z = new Complex128( 3.0, -2.0 );
 
