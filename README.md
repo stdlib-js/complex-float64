@@ -182,7 +182,7 @@ var o = z.toJSON();
 */
 ```
 
-To [revive][mdn-json-parse] a `Complex128` number from a [JSON][json] `string`, see [@stdlib/complex/reviver-float64][@stdlib/complex/reviver-float64].
+To [revive][mdn-json-parse] a `Complex128` number from a [JSON][json] `string`, see [@stdlib/complex/float64/reviver][@stdlib/complex/float64/reviver].
 
 </section>
 
@@ -694,7 +694,7 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [mdn-json-parse]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse
 
-[@stdlib/complex/reviver-float64]: https://github.com/stdlib-js/complex-reviver-float64
+[@stdlib/complex/float64/reviver]: https://github.com/stdlib-js/complex-float64-reviver
 
 <!-- <related-links> -->
 
