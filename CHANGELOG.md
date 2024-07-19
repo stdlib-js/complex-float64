@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-18)
+## Unreleased (2024-07-19)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb) - update namespace TypeScript declarations [(#2628)](https://github.com/stdlib-js/stdlib/pull/2628)
 -   [`e797f05`](https://github.com/stdlib-js/stdlib/commit/e797f0544c2b5a8415c230350d8dfa4917691d33) - add `base` to namespace
 -   [`d9edc48`](https://github.com/stdlib-js/stdlib/commit/d9edc482b619ce39d6d2b0ed172e85e7cb295ba4) - convert `complex/float64` to a namespace
 
@@ -30,6 +31,11 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb): update namespace TypeScript declarations
+-   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb): update namespace declarations 
+
+    -   To migrate, users should see the guidance found in the relevant commits for namespace refactoring. See issue #2260.
 
 -   [`d9edc48`](https://github.com/stdlib-js/stdlib/commit/d9edc482b619ce39d6d2b0ed172e85e7cb295ba4): convert `complex/float64` to a namespace
 -   [`d9edc48`](https://github.com/stdlib-js/stdlib/commit/d9edc482b619ce39d6d2b0ed172e85e7cb295ba4): `complex/float64` converted to a namespace 
@@ -65,12 +71,26 @@
 
 ##### Features
 
+-   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb) - update namespace TypeScript declarations [(#2628)](https://github.com/stdlib-js/stdlib/pull/2628)
 -   [`c89d08c`](https://github.com/stdlib-js/stdlib/commit/c89d08c3733ca6b6f1fab8d8ebc95663b8190b5e) - add `assert` to namespace
 -   [`12e3d27`](https://github.com/stdlib-js/stdlib/commit/12e3d27221fea685a32218d5bd7255bba1c3b4a3) - add `complex/float64/base` namespace
 
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb): update namespace TypeScript declarations
+-   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb): update namespace declarations 
+
+    -   To migrate, users should see the guidance found in the relevant commits for namespace refactoring. See issue #2260.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -110,11 +130,25 @@
 
 ##### Features
 
+-   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb) - update namespace TypeScript declarations [(#2628)](https://github.com/stdlib-js/stdlib/pull/2628)
 -   [`5bb602e`](https://github.com/stdlib-js/stdlib/commit/5bb602e63ab9d543d6f2702a556e7569d01277bb) - add `complex/float64/base/assert` namespace
 
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb): update namespace TypeScript declarations
+-   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb): update namespace declarations 
+
+    -   To migrate, users should see the guidance found in the relevant commits for namespace refactoring. See issue #2260.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -430,6 +464,11 @@
 
 ### BREAKING CHANGES
 
+-   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb): update namespace TypeScript declarations
+-   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb): update namespace declarations 
+
+    -   To migrate, users should see the guidance found in the relevant commits for namespace refactoring. See issue #2260.
+
 -   [`d9edc48`](https://github.com/stdlib-js/stdlib/commit/d9edc482b619ce39d6d2b0ed172e85e7cb295ba4): convert `complex/float64` to a namespace
 -   [`d9edc48`](https://github.com/stdlib-js/stdlib/commit/d9edc482b619ce39d6d2b0ed172e85e7cb295ba4): `complex/float64` converted to a namespace 
 
@@ -479,6 +518,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb) - **feat:** update namespace TypeScript declarations [(#2628)](https://github.com/stdlib-js/stdlib/pull/2628) _(by stdlib-bot, Athan Reines)_
 -   [`c89d08c`](https://github.com/stdlib-js/stdlib/commit/c89d08c3733ca6b6f1fab8d8ebc95663b8190b5e) - **feat:** add `assert` to namespace _(by Athan Reines)_
 -   [`5bb602e`](https://github.com/stdlib-js/stdlib/commit/5bb602e63ab9d543d6f2702a556e7569d01277bb) - **feat:** add `complex/float64/base/assert` namespace _(by Athan Reines)_
 -   [`e797f05`](https://github.com/stdlib-js/stdlib/commit/e797f0544c2b5a8415c230350d8dfa4917691d33) - **feat:** add `base` to namespace _(by Athan Reines)_
