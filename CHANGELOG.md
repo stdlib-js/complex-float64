@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2024-07-21)
+## 0.3.0 (2024-07-28)
 
 <section class="packages">
 
@@ -44,12 +44,6 @@
     constructor is now the `complex/float64/ctor`. To migrate, users
     should update their import paths to `complex/float64/ctor` which
     provides the same API and implementation.
-
--   [`7381394`](https://github.com/stdlib-js/stdlib/commit/738139479cf29cbe123d7c5028024983ba11b3bd): remove `complex/reviver-float64` 
-
-    -   To migrate, users should update their require/import paths to use
-    `@stdlib/complex-float64/reviver` which provides the same API and
-    implementation.
 
 </section>
 
@@ -162,21 +156,7 @@
 
 <details>
 
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`0be60c5`](https://github.com/stdlib-js/stdlib/commit/0be60c5b5c2136ca09e4dfd2edd5efdaf3bb2423): remove `complex/base/assert/is-equal` 
-
-    -   To migrate, users should update their require/import paths to use
-    `@stdlib/complex-float64/base/assert/is-equal` which provides the
-    same API and implementation.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
+No changes reported for this release.</details>
 
 </section>
 
@@ -318,20 +298,6 @@
 
 <!-- /.bug-fixes -->
 
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`7381394`](https://github.com/stdlib-js/stdlib/commit/738139479cf29cbe123d7c5028024983ba11b3bd): remove `complex/reviver-float64` 
-
-    -   To migrate, users should update their require/import paths to use
-    `@stdlib/complex-float64/reviver` which provides the same API and
-    implementation.
-
-</section>
-
-<!-- /.breaking-changes -->
-
 </details>
 
 </section>
@@ -366,21 +332,7 @@
 
 <details>
 
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`55df587`](https://github.com/stdlib-js/stdlib/commit/55df587285d107ccccdef95c18f702c60ef642bb): remove `complex/parse-float64` 
-
-    -   To migrate, users should update their require/import paths to use
-    `@stdlib/complex-float64/parse` which provides the same API and
-    implementation.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
+No changes reported for this release.</details>
 
 </section>
 
@@ -436,21 +388,7 @@
 
 <details>
 
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`7381394`](https://github.com/stdlib-js/stdlib/commit/738139479cf29cbe123d7c5028024983ba11b3bd): remove `complex/reviver-float64` 
-
-    -   To migrate, users should update their require/import paths to use
-    `@stdlib/complex-float64/reviver` which provides the same API and
-    implementation.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
+No changes reported for this release.</details>
 
 </section>
 
@@ -477,24 +415,6 @@
     should update their import paths to `complex/float64/ctor` which
     provides the same API and implementation.
 
--   [`0be60c5`](https://github.com/stdlib-js/stdlib/commit/0be60c5b5c2136ca09e4dfd2edd5efdaf3bb2423): remove `complex/base/assert/is-equal` 
-
-    -   To migrate, users should update their require/import paths to use
-    `@stdlib/complex-float64/base/assert/is-equal` which provides the
-    same API and implementation.
-
--   [`55df587`](https://github.com/stdlib-js/stdlib/commit/55df587285d107ccccdef95c18f702c60ef642bb): remove `complex/parse-float64` 
-
-    -   To migrate, users should update their require/import paths to use
-    `@stdlib/complex-float64/parse` which provides the same API and
-    implementation.
-
--   [`7381394`](https://github.com/stdlib-js/stdlib/commit/738139479cf29cbe123d7c5028024983ba11b3bd): remove `complex/reviver-float64` 
-
-    -   To migrate, users should update their require/import paths to use
-    `@stdlib/complex-float64/reviver` which provides the same API and
-    implementation.
-
 </section>
 
 <!-- /.breaking-changes -->
@@ -518,6 +438,8 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`2777e4b`](https://github.com/stdlib-js/stdlib/commit/2777e4be161869d09406e3b17947d24c64b47af2) - **bench:** resolve lint errors in benchmarks _(by Athan Reines)_
+-   [`a304cd8`](https://github.com/stdlib-js/stdlib/commit/a304cd8eba1aefe44f74a0273bd4c08345ee92f4) - **docs:** update namespace table of contents [(#2648)](https://github.com/stdlib-js/stdlib/pull/2648) _(by stdlib-bot, Athan Reines)_
 -   [`9dc29b4`](https://github.com/stdlib-js/stdlib/commit/9dc29b4d2e6eb5ba0b2625c3bfe9f50034a3ed99) - **docs:** add sub-namespace sections and update namespace table of contents _(by Philipp Burckhardt)_
 -   [`bd258a3`](https://github.com/stdlib-js/stdlib/commit/bd258a3c2803d841658c7465505966149845a6fb) - **feat:** update namespace TypeScript declarations [(#2628)](https://github.com/stdlib-js/stdlib/pull/2628) _(by stdlib-bot, Athan Reines)_
 -   [`c89d08c`](https://github.com/stdlib-js/stdlib/commit/c89d08c3733ca6b6f1fab8d8ebc95663b8190b5e) - **feat:** add `assert` to namespace _(by Athan Reines)_
@@ -538,14 +460,11 @@ A total of 2 people contributed to this release. Thank you to the following cont
 -   [`59aabc1`](https://github.com/stdlib-js/stdlib/commit/59aabc17b798bff37755488c930b9136ada18d40) - **feat:** add `complex/float64/reim` _(by Athan Reines)_
 -   [`76a2524`](https://github.com/stdlib-js/stdlib/commit/76a25248d272330b0ae2e0becd907216037b7a0a) - **feat:** add `complex/float64/conj` _(by Athan Reines)_
 -   [`659f752`](https://github.com/stdlib-js/stdlib/commit/659f752db18317bf5fc237fdbcad0d74b61e1ed9) - **style:** add missing spaces _(by Philipp Burckhardt)_
--   [`3a3b1e0`](https://github.com/stdlib-js/stdlib/commit/3a3b1e08f73a54c5ee46d73045805aee0bb1196d) - **docs:** update package URLs [(##2269)](#2269) _(by stdlib-bot)_
+-   [`3a3b1e0`](https://github.com/stdlib-js/stdlib/commit/3a3b1e08f73a54c5ee46d73045805aee0bb1196d) - **docs:** update package URLs [(#2269)](https://github.com/stdlib-js/stdlib/pull/2269) _(by stdlib-bot)_
 -   [`8089b88`](https://github.com/stdlib-js/stdlib/commit/8089b886a4d7d89f15abb068b1021d93f9c4f64e) - **docs:** update paths _(by Athan Reines)_
 -   [`1a93d8f`](https://github.com/stdlib-js/stdlib/commit/1a93d8f68b80f61255d114d779d407bd8eb4877d) - **feat:** add `complex/float64/base/assert/is-not-equal` _(by Athan Reines)_
 -   [`d925e71`](https://github.com/stdlib-js/stdlib/commit/d925e719b20718f0cd58d41e8630d700be89e725) - **feat:** add `complex/float64/base/assert/is-same-value` _(by Athan Reines)_
 -   [`45cadfe`](https://github.com/stdlib-js/stdlib/commit/45cadfed2906835952b096ac0b5feab837a01bce) - **feat:** add `complex/float64/base/assert/is-same-value-zero` _(by Athan Reines)_
--   [`0be60c5`](https://github.com/stdlib-js/stdlib/commit/0be60c5b5c2136ca09e4dfd2edd5efdaf3bb2423) - **remove:** remove `complex/base/assert/is-equal` _(by Athan Reines)_
--   [`55df587`](https://github.com/stdlib-js/stdlib/commit/55df587285d107ccccdef95c18f702c60ef642bb) - **remove:** remove `complex/parse-float64` _(by Athan Reines)_
--   [`7381394`](https://github.com/stdlib-js/stdlib/commit/738139479cf29cbe123d7c5028024983ba11b3bd) - **remove:** remove `complex/reviver-float64` _(by Athan Reines)_
 -   [`75d4f83`](https://github.com/stdlib-js/stdlib/commit/75d4f83cb85610d23a04dc21a03f8075f6d3665f) - **refactor:** update require and include paths _(by Athan Reines)_
 -   [`3c94d90`](https://github.com/stdlib-js/stdlib/commit/3c94d900f801affd96eef9898a742e51e362f6bd) - **fix:** update dependency path _(by Athan Reines)_
 -   [`2efc790`](https://github.com/stdlib-js/stdlib/commit/2efc79009f71a65f5ac51bd7bb81539ae6d23796) - **feat:** add `complex/float64/ctor` _(by Athan Reines)_
@@ -566,7 +485,99 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ### Packages
 
-<section class="package" id="complex-float64-v0.2.1">
+</section>
+
+<!-- /.packages -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+## 0.2.0 (2024-02-14)
+
+<section class="packages">
+
+### Packages
+
+<section class="package" id="complex-float64-v0.2.0">
+
+#### [@stdlib/complex/float64](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float64)
+
+<details>
+
+No changes reported for this release.</details>
+
+</section>
+
+<!-- /.package -->
+
+</section>
+
+<!-- /.packages -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`46d049b`](https://github.com/stdlib-js/stdlib/commit/46d049b5d38f9ef6e426d6a517ac8925c94d7642) - **build:** replace tslint directive _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+## 0.1.1 (2023-10-09)
+
+<section class="packages">
+
+### Packages
+
+</section>
+
+<!-- /.packages -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+## 0.1.0 (2023-09-23)
+
+<section class="packages">
+
+### Packages
+
+<section class="package" id="complex-float64-v0.1.0">
 
 #### [@stdlib/complex/float64](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float64)
 
@@ -637,11 +648,186 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
--   [`46d049b`](https://github.com/stdlib-js/stdlib/commit/46d049b5d38f9ef6e426d6a517ac8925c94d7642) - **build:** replace tslint directive _(by Philipp Burckhardt)_
 -   [`9768c66`](https://github.com/stdlib-js/stdlib/commit/9768c662b6e255b70ba9fb0faa989ea1eea71f66) - **feat:** update minimum TypeScript version _(by Philipp Burckhardt)_
 -   [`ab5d324`](https://github.com/stdlib-js/stdlib/commit/ab5d324b547870938b21ebdeecc1f7fda132f321) - **chore:** resolve lint errors _(by Philipp Burckhardt)_
 -   [`07cc80b`](https://github.com/stdlib-js/stdlib/commit/07cc80b4aa930750251fc70c8b9afe72801da142) - **docs:** resolve C lint errors _(by Athan Reines)_
 -   [`28e1c84`](https://github.com/stdlib-js/stdlib/commit/28e1c84390d88044883c9ef940a12f38d66ea3ef) - **docs:** resolve C lint errors _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+## 0.0.8 (2022-02-16)
+
+<section class="packages">
+
+### Packages
+
+</section>
+
+<!-- /.packages -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+## 0.0.7 (2021-08-22)
+
+<section class="packages">
+
+### Packages
+
+</section>
+
+<!-- /.packages -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+## 0.0.6 (2021-07-09)
+
+<section class="packages">
+
+### Packages
+
+</section>
+
+<!-- /.packages -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+## 0.0.5 (2021-07-06)
+
+<section class="packages">
+
+### Packages
+
+</section>
+
+<!-- /.packages -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+## 0.0.4 (2021-06-27)
+
+<section class="packages">
+
+### Packages
+
+</section>
+
+<!-- /.packages -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+## 0.0.3 (2021-06-16)
+
+<section class="packages">
+
+### Packages
+
+</section>
+
+<!-- /.packages -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+## 0.0.2 (2021-06-15)
+
+<section class="packages">
+
+### Packages
+
+</section>
+
+<!-- /.packages -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+## 0.0.1 (2021-06-14)
+
+<section class="packages">
+
+### Packages
+
+</section>
+
+<!-- /.packages -->
+
+<section class="commits">
+
+### Commits
+
+<details>
 
 </details>
 
