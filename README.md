@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import complex from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@deno/mod.js';
+import complex from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@v0.3.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { Complex128, base, conj, imag, parseComplex128, real, reim, reviveComplex128 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@deno/mod.js';
+import { Complex128, base, conj, imag, parseComplex128, real, reim, reviveComplex128 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@v0.3.0-deno/mod.js';
 ```
 
 #### complex
@@ -112,7 +112,7 @@ The namespace contains the following functions:
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64@v0.3.0-deno/mod.js';
 
 console.log( objectKeys( ns ) );
 ```
