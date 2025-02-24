@@ -4,11 +4,124 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2025-02-24)
 
 <section class="packages">
 
 ### Packages
+
+<section class="package" id="complex-float64-base-unreleased">
+
+#### [@stdlib/complex/float64/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float64/base)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8409bd1`](https://github.com/stdlib-js/stdlib/commit/8409bd17639c21c94be23d8498789fca5352892b) - update namespace TypeScript declarations [(#4856)](https://github.com/stdlib-js/stdlib/pull/4856)
+-   [`a4340c8`](https://github.com/stdlib-js/stdlib/commit/a4340c8e2aea6c40af52e3665c82e35af7b50f96) - add `muladd` to namespace
+-   [`82ba934`](https://github.com/stdlib-js/stdlib/commit/82ba9342e9964589c7742757380c72049d5389d4) - add `scale` to namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="complex-float64-base-add-unreleased">
+
+#### [@stdlib/complex/float64/base/add](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float64/base/add)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`486fed2`](https://github.com/stdlib-js/stdlib/commit/486fed2b9816530eb135f9846f3745281cec76e2) - add `assign` and `strided` methods
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="complex-float64-base-mul-unreleased">
+
+#### [@stdlib/complex/float64/base/mul](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float64/base/mul)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a0aef8f`](https://github.com/stdlib-js/stdlib/commit/a0aef8ff6010029008236151a684d1295a66f6a7) - add `strided` API
+-   [`e93b466`](https://github.com/stdlib-js/stdlib/commit/e93b4667550eed6470a805d8e244764c6fe26525) - add `assign` method
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="complex-float64-base-mul-add-unreleased">
+
+#### [@stdlib/complex/float64/base/mul-add](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float64/base/mul-add)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`68cb0b2`](https://github.com/stdlib-js/stdlib/commit/68cb0b20a2333a13fa86f17c9efeb4909179a816) - add `complex/float64/base/mul-add`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="complex-float64-base-scale-unreleased">
+
+#### [@stdlib/complex/float64/base/scale](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float64/base/scale)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f7c3e59`](https://github.com/stdlib-js/stdlib/commit/f7c3e59e17ac0198d99838b89b2f2a242f9660ee) - add `complex/float64/base/scale`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
 
 </section>
 
@@ -18,8 +131,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Philipp Burckhardt
 
 </section>
@@ -32,6 +146,21 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`b957f93`](https://github.com/stdlib-js/stdlib/commit/b957f93bfacfa2b307db9b30a45fa48ce5b4488b) - **docs:** fix description _(by Athan Reines)_
+-   [`8409bd1`](https://github.com/stdlib-js/stdlib/commit/8409bd17639c21c94be23d8498789fca5352892b) - **feat:** update namespace TypeScript declarations [(#4856)](https://github.com/stdlib-js/stdlib/pull/4856) _(by stdlib-bot)_
+-   [`15204d7`](https://github.com/stdlib-js/stdlib/commit/15204d79d9a8dfeb4c520e6948813f29972e0aa2) - **docs:** update namespace table of contents [(#4858)](https://github.com/stdlib-js/stdlib/pull/4858) _(by stdlib-bot)_
+-   [`eb938ff`](https://github.com/stdlib-js/stdlib/commit/eb938fff22223cbbfb04568e30a4f62f8455d3bc) - **bench:** fix incomplete refactoring _(by Athan Reines)_
+-   [`a4340c8`](https://github.com/stdlib-js/stdlib/commit/a4340c8e2aea6c40af52e3665c82e35af7b50f96) - **feat:** add `muladd` to namespace _(by Athan Reines)_
+-   [`68cb0b2`](https://github.com/stdlib-js/stdlib/commit/68cb0b20a2333a13fa86f17c9efeb4909179a816) - **feat:** add `complex/float64/base/mul-add` _(by Athan Reines)_
+-   [`3f8a327`](https://github.com/stdlib-js/stdlib/commit/3f8a327f98267690ae7d101c84e522810986caf0) - **bench:** fix syntax _(by Athan Reines)_
+-   [`2ddce39`](https://github.com/stdlib-js/stdlib/commit/2ddce39825650066ba35c74a217ab6425e4f3c9c) - **bench:** fix copy-paste error _(by Athan Reines)_
+-   [`82ba934`](https://github.com/stdlib-js/stdlib/commit/82ba9342e9964589c7742757380c72049d5389d4) - **feat:** add `scale` to namespace _(by Athan Reines)_
+-   [`f7c3e59`](https://github.com/stdlib-js/stdlib/commit/f7c3e59e17ac0198d99838b89b2f2a242f9660ee) - **feat:** add `complex/float64/base/scale` _(by Athan Reines)_
+-   [`486fed2`](https://github.com/stdlib-js/stdlib/commit/486fed2b9816530eb135f9846f3745281cec76e2) - **feat:** add `assign` and `strided` methods _(by Athan Reines)_
+-   [`8983ed6`](https://github.com/stdlib-js/stdlib/commit/8983ed6bedb835843fab1a5039095932092e0665) - **test:** add missing test _(by Athan Reines)_
+-   [`22a3dcf`](https://github.com/stdlib-js/stdlib/commit/22a3dcfe916b7f5c979d6ee93045d37add5d685d) - **docs:** update namespace TypeScript declaration comments [(#4794)](https://github.com/stdlib-js/stdlib/pull/4794) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`a0aef8f`](https://github.com/stdlib-js/stdlib/commit/a0aef8ff6010029008236151a684d1295a66f6a7) - **feat:** add `strided` API _(by Athan Reines)_
+-   [`e93b466`](https://github.com/stdlib-js/stdlib/commit/e93b4667550eed6470a805d8e244764c6fe26525) - **feat:** add `assign` method _(by Athan Reines)_
 -   [`975147f`](https://github.com/stdlib-js/stdlib/commit/975147f3125c786ec1672acb3d2564ca16eaa790) - **docs:** fix TSDoc lint errors _(by Philipp Burckhardt)_
 -   [`f387603`](https://github.com/stdlib-js/stdlib/commit/f387603e739f88a38af3263ce6ff675ad903ee8c) - **docs:** consistently use declarative instead of imperative sentences outside of intros _(by Philipp Burckhardt)_
 
