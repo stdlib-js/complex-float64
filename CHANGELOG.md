@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-28)
+## Unreleased (2026-09-16)
 
 <section class="bug-fixes">
 
@@ -23,6 +23,8 @@
 
 <details>
 
+-   [`7ae11bc`](https://github.com/stdlib-js/stdlib/commit/7ae11bca9e05607a14425d165dfed57584b880b8) - **chore:** clean-up [(#13834)](https://github.com/stdlib-js/stdlib/pull/13834) _(by Philipp Burckhardt)_
+-   [`10ee0a5`](https://github.com/stdlib-js/stdlib/commit/10ee0a56ed60ae3d051ff0426b8e203a29c44cdc) - **chore:** clean-up [(#13754)](https://github.com/stdlib-js/stdlib/pull/13754) _(by Philipp Burckhardt)_
 -   [`f30fe01`](https://github.com/stdlib-js/stdlib/commit/f30fe0156a585359cbaac81f385926458ed7f26e) - **refactor:** simplify strided array type signatures [(#13128)](https://github.com/stdlib-js/stdlib/pull/13128) _(by Karan Anand)_
 -   [`83bfd15`](https://github.com/stdlib-js/stdlib/commit/83bfd159fa82bb3fd5d2d46e2eeb597fc7fb7a47) - **fix:** fix and unify complex parsing logic [(#13069)](https://github.com/stdlib-js/stdlib/pull/13069) _(by Abdul Kaium, Athan Reines)_
 -   [`f4bc442`](https://github.com/stdlib-js/stdlib/commit/f4bc442f019061ce55cc1a654722a325e35fd5f0) - **test:** remove redundant filename output in test blocks [(#12951)](https://github.com/stdlib-js/stdlib/pull/12951) _(by Abdul Kaium)_
